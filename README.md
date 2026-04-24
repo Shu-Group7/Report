@@ -1,4 +1,6 @@
 Student Depression Prediction using Machine Learning
+
+
 🔹 Part A: Introduction
 
 Mental health issues among students have become a significant global concern, with increasing academic pressure, financial stress, and lifestyle factors contributing to depression. Early detection of depression is critical to provide timely support and prevent severe consequences such as academic failure or self-harm.
