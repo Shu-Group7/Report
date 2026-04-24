@@ -106,6 +106,8 @@ Model trained using RandomForestClassifier
 The system predicts:
 
 “Depressed” or “Not Depressed” for new student data
+
+
 🔹 Part D: Technical & Critical Evaluation (LO3, LO4)
 ✅ 1. Technical Evaluation
 Performance Metrics
@@ -142,6 +144,8 @@ This system should:
 Be transparent
 Avoid discrimination
 Be used with human oversight
+
+
 🔹 Part E: Project Proposal & Management
 📊 1. Project Management
 What Went Well
@@ -173,6 +177,8 @@ Integration with university systems
 Research Extensions
 Multi-class classification (mild/moderate/severe depression)
 Integration with NLP (student feedback analysis)
+
+
 🔹 Part F: Conclusion
 
 This project successfully developed a machine learning system for predicting student depression using structured data. The Random Forest model achieved strong performance and demonstrated the effectiveness of data-driven approaches in mental health prediction.
