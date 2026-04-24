@@ -19,9 +19,13 @@ By leveraging data science techniques, this project contributes to building inte
 
 This project explores several data science and AI techniques relevant to classification problems:
 
+
+
 1. Supervised Learning
 
 The problem is formulated as a binary classification task (Depressed vs Not Depressed). Supervised learning models learn patterns from labelled data.
+
+
 
 2. Logistic Regression
 
@@ -31,6 +35,8 @@ Interpretability
 Baseline performance
 
 However, it may struggle with complex non-linear relationships.
+
+
 
 3. Random Forest
 
@@ -42,10 +48,13 @@ Handles non-linear relationships effectively
 
 It is widely used for structured/tabular datasets and was selected as the primary model.
 
+
 4. Data Preprocessing Techniques
 Handling missing values (median/mode imputation)
 Encoding categorical variables using Label Encoding
 Feature scaling using StandardScaler
+
+
 5. Evaluation Metrics
 
 To assess model performance:
@@ -58,11 +67,15 @@ F1-score → Balance between precision and recall
 These metrics provide a comprehensive evaluation beyond accuracy.
 
 🔹 Part C: Design & Implementation (LO2)
+
+
 1. System Overview
 
 The system follows a standard machine learning pipeline:
 
 Data Collection → Preprocessing → Feature Engineering → Model Training → Evaluation → Prediction
+
+
 2. Data Preprocessing
 
 Key steps implemented:
@@ -72,6 +85,8 @@ Handled missing values:
 Numerical → Median
 Categorical → Mode
 Converted categorical variables into numerical format using Label Encoding
+
+
 3. Feature Selection
 
 Input features include:
@@ -87,6 +102,8 @@ Family History of Mental Illness
 Target variable:
 
 Depression (0 = No, 1 = Yes)
+
+
 4. Model Implementation
 
 Two models were tested:
@@ -97,10 +114,14 @@ Fast and interpretable
 Random Forest (Final Model)
 Better handling of complex relationships
 Improved performance
+
+
 5. Training Process
 Data split: 80% training / 20% testing
 Feature scaling applied using StandardScaler
 Model trained using RandomForestClassifier
+
+
 6. System Output
 
 The system predicts:
@@ -109,6 +130,8 @@ The system predicts:
 
 
 🔹 Part D: Technical & Critical Evaluation (LO3, LO4)
+
+
 ✅ 1. Technical Evaluation
 Performance Metrics
 Metric	Value (Example)
@@ -121,12 +144,17 @@ True Positives: Correctly predicted depressed students
 False Negatives: Missed depressed cases (critical issue)
 False Positives: Over-prediction
 
+
 👉 The model performs well overall but improving recall is important in mental health applications.
+
+
 
 ⚠️ 2. Limitations
 Dataset size may be limited
 Self-reported data may introduce bias
 Model may not generalise to different populations
+
+
 🌍 3. Ethical & Social Considerations
 Bias
 Dataset may not represent all demographics
@@ -147,6 +175,8 @@ Be used with human oversight
 
 
 🔹 Part E: Project Proposal & Management
+
+
 📊 1. Project Management
 What Went Well
 Clear problem definition
@@ -160,6 +190,8 @@ Tools Used
 Python
 VS Code
 GitHub (for version control)
+
+
 🚀 2. Future Work
 
 This project can be extended by:
