@@ -1,7 +1,7 @@
 Student Depression Prediction using Machine Learning
 
 
-🔹 Part A: Introduction
+Part A: Introduction
 
 Mental health issues among students have become a significant global concern, with increasing academic pressure, financial stress, and lifestyle factors contributing to depression. Early detection of depression is critical to provide timely support and prevent severe consequences such as academic failure or self-harm.
 
@@ -15,7 +15,7 @@ Assisting counsellors and decision-makers
 
 By leveraging data science techniques, this project contributes to building intelligent systems for mental health prediction.
 
-🔹 Part B: Technical Review (LO1)
+Part B: Technical Review (LO1)
 
 This project explores several data science and AI techniques relevant to classification problems:
 
@@ -66,7 +66,7 @@ F1-score → Balance between precision and recall
 
 These metrics provide a comprehensive evaluation beyond accuracy.
 
-🔹 Part C: Design & Implementation (LO2)
+Part C: Design & Implementation (LO2)
 
 
 1. System Overview
@@ -129,10 +129,10 @@ The system predicts:
 “Depressed” or “Not Depressed” for new student data
 
 
-🔹 Part D: Technical & Critical Evaluation (LO3, LO4)
+Part D: Technical & Critical Evaluation (LO3, LO4)
 
 
-✅ 1. Technical Evaluation
+1. Technical Evaluation
 Performance Metrics
 Metric	Value (Example)
 Accuracy	~85–90%
@@ -145,17 +145,17 @@ False Negatives: Missed depressed cases (critical issue)
 False Positives: Over-prediction
 
 
-👉 The model performs well overall but improving recall is important in mental health applications.
+The model performs well overall but improving recall is important in mental health applications.
 
 
 
-⚠️ 2. Limitations
+2. Limitations
 Dataset size may be limited
 Self-reported data may introduce bias
 Model may not generalise to different populations
 
 
-🌍 3. Ethical & Social Considerations
+3. Ethical & Social Considerations
 Bias
 Dataset may not represent all demographics
 Cultural differences in mental health reporting
@@ -174,10 +174,10 @@ Avoid discrimination
 Be used with human oversight
 
 
-🔹 Part E: Project Proposal & Management
+Part E: Project Proposal & Management
 
 
-📊 1. Project Management
+1. Project Management
 What Went Well
 Clear problem definition
 Successful implementation of ML pipeline
@@ -192,7 +192,7 @@ VS Code
 GitHub (for version control)
 
 
-🚀 2. Future Work
+2. Future Work
 
 This project can be extended by:
 
@@ -211,7 +211,7 @@ Multi-class classification (mild/moderate/severe depression)
 Integration with NLP (student feedback analysis)
 
 
-🔹 Part F: Conclusion
+Part F: Conclusion
 
 This project successfully developed a machine learning system for predicting student depression using structured data. The Random Forest model achieved strong performance and demonstrated the effectiveness of data-driven approaches in mental health prediction.
 
